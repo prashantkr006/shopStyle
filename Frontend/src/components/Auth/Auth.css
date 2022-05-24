@@ -1,0 +1,87 @@
+.signup-form {
+  /* border-radius: 9px;
+  box-shadow: 0px 0px 12px -3px #000000;
+  margin: 0px auto;
+  padding: 30px;
+  width: 35%;
+  margin-top: 2%;
+  margin-bottom: 3%; */
+
+  box-shadow: 0px 3px 16px -8px #000000;
+  padding: 30px;
+  width: 37%;
+  margin-top: 0%;
+}
+
+.signup-form h6 {
+  font-size: 1rem;
+  margin-top: 5%;
+  margin-left: -3.2%;
+}
+
+#login-redirect-to-signup {
+  font-size: 1rem;
+  margin-top: 5%;
+  /* margin-left: 22.8%; */
+}
+
+.auth-login-img {
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.otp-input {
+  width: 4rem;
+  height: 3rem;
+  margin: 0 0.5rem;
+  font-size: 2rem;
+  border-radius: 4;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.confirm-order-warning {
+  color: darkslategrey;
+  padding-left: 2.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+@media (max-width: 950px) {
+  .signup-form {
+    width: 88%;
+    margin-left: 9%;
+  }
+  .auth-img {
+    display: none;
+  }
+  .auth-login-img {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .signup-form {
+    width: 88%;
+    margin-left: 9%;
+  }
+  .auth-img {
+    display: none;
+  }
+  .auth-login-img {
+    display: none;
+  }
+  .signup-form h6 {
+    font-size: 0.8rem;
+    margin-top: 5%;
+    margin-left: 7.8%;
+  }
+  #login-redirect-to-signup {
+    font-size: 0.8rem;
+    margin-top: 5%;
+    /* margin-left: 7.8%; */
+  }
+  .confirm-order-warning {
+    padding-left: 5%;
+  }
+}

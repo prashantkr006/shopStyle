@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italiana&family=Open+Sans+Condensed:wght@300&family=Petemoss&family=Sacramento&display=swap");
+#nav-brand {
+  font-size: 1.75rem;
+}
+
+#nav-category {
+  padding-top: 10%;
+}
+
+.nav-category-item {
+  width: 20%;
+}
+
+#navbar-icons {
+  padding-top: 9%;
+}
+
+.menuitem {
+  margin-right: 25px;
+}
+
+#nav-category:hover {
+  color: rgb(247, 8, 235);
+}
+
+#nav-brand:hover {
+  color: rgb(247, 8, 235);
+}
+
+#navbar-icons:hover {
+  color: rgb(247, 8, 235);
+}
+
+#navbar-list {
+  margin-left: 12%;
+  font-size: 1.15rem;
+  width: -webkit-fill-available;
+}
+
+#navbarSupportedContent {
+  padding-left: 15%;
+}
+
+.nav-icons-list {
+  display: flex;
+}
+
+@media (max-width: 980px) {
+  #navbar-list {
+    margin-left: 0;
+  }
+  #navbarSupportedContent {
+    padding-left: 0;
+    text-align: center;
+  }
+  #nav-category {
+    width: 100%;
+    padding-top: 2%;
+  }
+
+  .nav-category-item {
+    width: 100%;
+  }
+  #navbar-icons {
+    padding-top: 0;
+  }
+
+  .menuitem {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+/* Swipe Cards */
+
+.tinderCards {
+  padding-top: 0;
+  padding-left: 18%;
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  width: 400px;
+  padding: 5px;
+  max-width: 85vw;
+  height: 28rem;
+  box-shadow: 0px 18px 53px 0px rgba(185, 181, 181, 0.35);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.tinderCards_cardContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+.swipe {
+  position: absolute;
+}
+
+.cardContent {
+  width: 100%;
+  height: 100%;
+}
+
+.card h4 {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 97.3%;
+  color: rgb(253, 251, 251);
+  height: 4rem;
+  font-family: "Italiana", serif;
+  font-size: 3rem;
+}
+
+.card h6 {
+  background: rgba(0, 0, 0, 1);
+  position: absolute;
+  bottom: 15%;
+  text-align: center;
+  width: 97.3%;
+  color: rgb(253, 251, 251);
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  padding-top: 1.2%;
+}
+
+@media (max-width: 980px) {
+  .tinderCards {
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 5%;
+  }
+  .card h6 {
+    font-size: 0.78rem;
+    padding: 2.4%;
+  }
+  .card h4 {
+    padding-top: 3.2%;
+    font-size: 2.6rem;
+  }
+}
+
+/* Loader setting */
+
+.loader {
+  margin-top: 18%;
+}
+
+@media (max-width: 980px) {
+  .loader {
+    margin-top: 75%;
+  }
+}
+
+/* Home Styling */
+
+.home {
+  display: flex;
+}
+
+.home h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 6rem;
+  margin-top: 6%;
+  margin-left: 11%;
+}
+
+.home h3 {
+  font-weight: bolder;
+  color: rgb(247, 8, 235);
+  /* font-family: "Italiana", serif; */
+  /* font-family: "Great Vibes", cursive; */
+  font-family: "Sacramento", cursive;
+  font-size: 4rem;
+  margin-top: 2%;
+  margin-left: 11%;
+}
+
+#btn-explore {
+  margin-left: 11%;
+  margin-top: 2%;
+  width: 30%;
+  height: 4.5rem;
+  font-size: 2rem;
+
+  color: black;
+  border-radius: 17px;
+  box-shadow: 0px 5px orange, -2px 6px orange, -1px 1px orange;
+  border: 1px solid orange;
+  background-color: #ffeac5;
+  transition: 0.5s ease;
+}
+
+#btn-explore:hover {
+  box-shadow: 0px 10px #ffeac5, -2px 6px #ffeac5, -1px 1px #ffeac5;
+
+  background-color: orange;
+}
+
+@media (max-width: 980px) {
+  .home {
+    display: block;
+  }
+
+  .home h1 {
+    font-size: 3rem;
+    margin-top: 20%;
+    margin-left: 1%;
+    text-align: center;
+  }
+  .home h3 {
+    font-size: 2rem;
+    margin-top: 2%;
+    margin-left: 2%;
+    text-align: center;
+  }
+
+  #btn-explore {
+    width: 85.2%;
+    margin: 0;
+    margin-left: 7.2%;
+    margin-top: 5%;
+  }
+
+  .home-carosel {
+    margin-top: 135%;
+  }
+}
+.super-root-home {
+  display: block;
+}
+
+/* Categories Styling */
+/* 
+.row {
+  margin: auto;
+  margin-left: 17%;
+} */
+#top-elements {
+  margin-left: 11%;
+}
+
+@media (max-width: 450px) {
+  #top-elements {
+    margin-left: 5%;
+  }
+}

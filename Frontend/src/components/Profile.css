@@ -1,0 +1,60 @@
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.profile-table-container {
+  margin-top: 5%;
+  width: -webkit-fill-available;
+  padding-left: 6%;
+  display: block;
+}
+
+.profile-table {
+  border-spacing: 30px;
+  padding: 5%;
+  width: 100%;
+  table-layout: auto;
+}
+
+.profile-img {
+  margin-left: 5%;
+  width: 35%;
+}
+.address-text {
+  font-size: 1.7rem;
+}
+
+@media (max-width: 450px) {
+  .profile-container {
+    display: block;
+    font-size: 1rem;
+  }
+  .profile-img {
+    margin-left: 28%;
+  }
+  .profile-table-container {
+    padding-left: 17%;
+  }
+  .address-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .profile-container {
+    display: block;
+    font-size: 1rem;
+  }
+  .profile-img {
+    margin-left: 28%;
+  }
+  .profile-table-container {
+    padding-left: 17%;
+  }
+  .address-text {
+    font-size: 0.9rem;
+  }
+}

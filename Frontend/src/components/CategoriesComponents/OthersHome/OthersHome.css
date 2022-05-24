@@ -1,0 +1,148 @@
+.others-container {
+  display: flex;
+}
+
+.others-first-child {
+  margin-left: 9%;
+}
+
+.others-accesory-text {
+  font-size: 4.5rem;
+}
+
+.others-accesory-text {
+  font-size: 3.5rem;
+}
+
+.others-expore-btn {
+  margin-top: 5%;
+  width: 16rem;
+  height: 4.5rem;
+  font-size: 2rem;
+  border-radius: 65px 0;
+}
+
+.others-image {
+  width: 25rem;
+  margin-left: 8%;
+}
+
+@media (max-width: 980px) {
+  .others-container {
+    display: block;
+    text-align: center;
+  }
+  .others-accesory-text,
+  .others-text {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .others-expore-btn {
+    font-size: 1.5rem;
+    margin-top: 5%;
+    justify-self: end;
+    border-radius: 28px 0;
+    height: 3rem;
+    width: 52%;
+  }
+  .others-image {
+    height: 17rem;
+    width: 70%;
+    margin-left: 0;
+  }
+}
+
+/* Bags ans house essintial component styles */
+
+.bags-house-container {
+  display: flex;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.others-bags {
+  width: 50%;
+  text-align: center;
+  margin-left: 12%;
+}
+
+.others-bag-img {
+  height: 28rem;
+  width: 63%;
+}
+
+.others-house {
+  width: 50%;
+  text-align: center;
+}
+
+.others-house-image {
+  height: 28rem;
+  width: 67%;
+}
+
+.others-bag-button {
+  border-radius: 55px 0;
+  width: 82%;
+  height: 14%;
+  font-size: x-large;
+  margin-top: 107%;
+  padding-top: 3%;
+}
+
+.others-house-button {
+  border-radius: 55px 0;
+  width: 82%;
+  height: 14%;
+  font-size: x-large;
+  margin-top: 100%;
+  padding-top: 3%;
+}
+
+@media (max-width: 980px) {
+  .bags-house-container {
+    display: block;
+  }
+  .others-bags {
+    width: 88%;
+  }
+  .others-house {
+    margin-top: 10%;
+    margin-left: 12%;
+    width: 88%;
+  }
+  .others-bag-img,
+  .others-house-image {
+    width: 64%;
+  }
+  .others-bag-button,
+  .others-house-button {
+    font-size: larger;
+    margin-top: 108%;
+  }
+}
+
+@media (max-width: 450px) {
+  .bags-house-container {
+    display: block;
+  }
+  .others-bags {
+    width: 88%;
+  }
+  .others-house {
+    margin-top: 10%;
+    margin-left: 12%;
+    width: 88%;
+  }
+  .others-bag-img,
+  .others-house-image {
+    width: 93%;
+  }
+  .others-bag-button,
+  .others-house-button {
+    font-size: larger;
+    margin-top: 120%;
+    padding-top: 5%;
+  }
+}

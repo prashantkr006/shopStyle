@@ -1,0 +1,73 @@
+.category-card-dimension {
+  padding: 0;
+  box-shadow: 0px 18px 53px 0px rgb(185 181 181 / 95%);
+  height: 11rem;
+  width: 12rem;
+  border-radius: 12px;
+  transition: 0.5s;
+}
+
+.category-card-dimension:hover {
+  transform: scale(1.1);
+}
+
+.card-title1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.category-body {
+  padding-top: 71.8%;
+}
+
+/* Brand Category Styles */
+.category-card-dimension1 {
+  padding: 0;
+  box-shadow: 0px 18px 53px 0px rgb(185 181 181 / 95%);
+  height: 11rem;
+  width: 11rem;
+  border-radius: 50%;
+}
+
+.category-card-dimension1 h4 {
+  font-size: 8rem;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.category-card-dimension1:hover h4 {
+  color: rgb(247, 8, 235);
+}
+
+.brand-title {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: normal;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 5%;
+}
+
+@media (max-width: 450px) {
+  .category-card-dimension {
+    width: 9rem;
+  }
+  .category-body {
+    padding-top: 102%;
+  }
+  .category-body h4 {
+    font-size: 1.5rem;
+  }
+  .category-card-dimension1 {
+    width: 9rem;
+    height: 9rem;
+    padding-top: 7%;
+  }
+  .category-card-dimension1 h4 {
+    font-size: 6rem;
+  }
+  .brand-title {
+    font-size: 1.8rem;
+    margin-top: 20%;
+  }
+}

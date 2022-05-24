@@ -1,0 +1,48 @@
+.item-card-container {
+  width: 25%;
+}
+
+.product-card-btn {
+  width: 98%;
+  position: absolute;
+  top: 84%;
+  margin-left: 10%;
+}
+
+@media (min-width: 1380px) {
+  .product-card-btn {
+    width: 98%;
+    position: absolute;
+    top: 84%;
+    margin-left: 2%;
+  }
+}
+
+@media (max-width: 980px) {
+  .item-card-container {
+    width: 50%;
+  }
+  .product-card-btn {
+    margin-left: 5.4%;
+    width: 98%;
+  }
+}
+
+@media (max-width: 770px) {
+  .item-card-container {
+    width: 50%;
+  }
+  .product-card-btn {
+    margin-left: 12%;
+    width: 98%;
+  }
+}
+@media (max-width: 450px) {
+  .item-card-container {
+    width: 100%;
+  }
+  .product-card-btn {
+    margin-left: 8%;
+    width: 95.5%;
+  }
+}

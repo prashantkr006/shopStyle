@@ -1,0 +1,37 @@
+.order-success-container {
+  display: flex;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.5%;
+}
+
+.order-success-container h1 {
+  margin-left: 2%;
+}
+
+.order-success-truck-img {
+  width: 40%;
+  height: 20rem;
+}
+
+@media (max-width: 450px) {
+  .order-success-container {
+    display: block;
+  }
+  .order-success-container h1 {
+    margin-top: 5%;
+    margin-left: 7%;
+    padding-left: 5%;
+    padding-right: 10%;
+  }
+  .order-success-container img {
+    margin-top: 15%;
+  }
+
+  .order-success-truck-img {
+    width: 100%;
+    margin-top: 17%;
+  }
+}
